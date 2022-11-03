@@ -15,4 +15,7 @@ echo str:~3=%str:~3%
 echo str:~-3=%str:~-3%
 @rem superh
 echo str:~0,-3=%str:~0,-3%
+@rem pause意思是 等待并提示 “请按任意键继续. . .”
+@rem 等待但不出现提示语 = pause > nul
+@rem 自定义提示语句 = notice here & pause > nul
 pause
